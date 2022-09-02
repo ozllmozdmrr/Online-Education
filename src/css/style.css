@@ -56,13 +56,35 @@ html {
         .header .navbar ul li ul li {
           width: 100%; }
 
+#menu-btn {
+  cursor: pointer;
+  color: #fff;
+  font-size: 2.5rem;
+  display: none; }
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%; } }
 
 @media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block; }
   .header {
-    padding: 2rem; } }
+    padding: 2rem; }
+    .header .navbar {
+      position: absolute;
+      top: 99%;
+      left: 0;
+      right: 0;
+      background: #224bcd;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); }
+      .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+      .header .navbar ul li {
+        width: 100%; }
+        .header .navbar ul li ul {
+          width: 100%;
+          position: inherit; } }
 
 @media (max-width: 450px) {
   html {
