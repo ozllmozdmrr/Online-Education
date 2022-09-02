@@ -1,0 +1,14 @@
+{
+  "name": "education",
+  "version": "1.0.0",
+  "description": "Sass online education",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css  --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.8"
+  }
+}
