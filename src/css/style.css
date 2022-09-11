@@ -145,6 +145,43 @@ section {
       font-size: 1.7rem;
       color: #224bcd; }
 
+.heading {
+  background: url(/src/images/heading-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .heading h3 {
+    font-size: 3.5rem;
+    color: #302851; }
+  .heading p {
+    font-size: 1.4rem;
+    color: #666;
+    padding-top: .5rem; }
+    .heading p a {
+      padding-right: .5rem;
+      color: #fa1d86; }
+      .heading p a:hover {
+        color: #224bcd; }
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem; }
+  .about .image {
+    flex: 1 1 42rem; }
+    .about .image img {
+      width: 100%; }
+  .about .content {
+    flex: 1 1 42rem; }
+    .about .content h3 {
+      color: #302851;
+      font-size: 4.5rem; }
+    .about .content p {
+      font-size: 1.4rem;
+      padding: 1rem 0;
+      color: #666;
+      line-height: 2.5rem; }
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%; }
@@ -169,7 +206,9 @@ section {
         width: 100%; }
         .header .navbar ul li ul {
           width: 100%;
-          position: inherit; } }
+          position: inherit; }
+  .about .content h3 {
+    font-size: 3rem; } }
 
 @media (max-width: 450px) {
   html {
