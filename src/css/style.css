@@ -204,6 +204,44 @@ section {
       line-height: 2.5rem;
       padding: 1rem 0; }
 
+.course-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(39rem, 1fr));
+  gap: 1.5rem; }
+  .course-2 .box {
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #f5f5f5; }
+    .course-2 .box .image {
+      margin-bottom: 2rem;
+      text-align: center; }
+      .course-2 .box .image img {
+        height: 22rem; }
+  .course-2 .content h3 {
+    color: #302851;
+    line-height: 2;
+    margin-top: 1.5rem;
+    font-size: 2rem; }
+  .course-2 .content p {
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 2.5;
+    padding: 1rem 0; }
+  .course-2 .content .icons {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .course-2 .content .icons a {
+      font-size: 1.4rem;
+      color: #666; }
+      .course-2 .content .icons a:hover {
+        color: #fa1d86; }
+      .course-2 .content .icons a i {
+        padding-right: .5rem;
+        color: #fa1d86; }
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%; }

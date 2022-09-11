@@ -297,6 +297,10 @@ section {
    }
 }
 
+////////  About.html
+
+
+///// course-1  
 .course-1 {
     @include grid(31rem);
 
@@ -327,7 +331,69 @@ section {
 }
 
 
-////////  About.html
+//// course-2
+
+.course-2 {
+    @include grid(39rem);
+
+    .box {
+        padding: 2rem;
+        border-radius: 1rem;
+        background: $light-bg;
+
+        .image {
+            margin-bottom: 2rem;
+            text-align: center;
+
+            img {
+                height: 22rem;
+            }
+        }
+    }
+
+
+    .content {
+
+        h3 {
+            color: $black;
+            line-height: 2;
+            margin-top: 1.5rem;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: $light-color;
+            line-height: 2.5;
+            padding:1rem 0;
+        }
+
+        .icons {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            a {
+                font-size: 1.4rem;
+                color: $light-color;
+
+                &:hover {
+                    color: $pink;
+                }
+                
+                i {
+                    padding-right: .5rem;
+                    color: $pink;
+                }
+            }
+        }
+    }
+}
+
+
+
 
 
 
