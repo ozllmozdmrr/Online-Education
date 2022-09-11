@@ -242,6 +242,76 @@ section {
         padding-right: .5rem;
         color: #fa1d86; }
 
+.course-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 1.5rem; }
+  .course-3 .box {
+    text-align: center;
+    overflow: hidden; }
+    .course-3 .box:hover .video video {
+      transform: scale(1.1); }
+    .course-3 .box .video {
+      height: 25rem;
+      width: 100%;
+      overflow: hidden;
+      border-radius: .5rem;
+      position: relative; }
+      .course-3 .box .video video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer; }
+      .course-3 .box .video i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+        height: 5rem;
+        width: 5rem;
+        line-height: 5rem;
+        border-radius: 50%;
+        background: #fff;
+        color: #302851;
+        pointer-events: none;
+        z-index: 10; }
+    .course-3 .box .content {
+      padding-top: 1rem; }
+      .course-3 .box .content h3 {
+        font-size: 1.7rem;
+        color: #302851;
+        padding: .5rem 0; }
+      .course-3 .box .content p {
+        font-size: 1.5rem;
+        color: #666; }
+
+.main-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  display: none; }
+  .main-video.active {
+    display: flex; }
+  .main-video #close-vid {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 6rem;
+    color: #fff;
+    cursor: pointer; }
+  .main-video video {
+    width: 80%;
+    border: 0.5rem solid #fff;
+    border-radius: .5rem; }
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%; }
