@@ -115,11 +115,11 @@ section {
   flex-wrap: wrap;
   gap: 2rem; }
   .home .image {
-    flex: 1 1 41rem; }
+    flex: 1 1 42rem; }
     .home .image img {
       width: 100%; }
   .home .content {
-    flex: 1 1 41rem; }
+    flex: 1 1 42rem; }
     .home .content h3 {
       color: #302851;
       font-size: 5rem; }
