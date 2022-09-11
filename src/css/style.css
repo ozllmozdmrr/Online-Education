@@ -19,6 +19,19 @@ html {
 section {
   padding: 3rem 9%; }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: #e9edfb;
+  color: #224bcd;
+  cursor: pointer;
+  border-radius: .5rem;
+  font-size: 1.7rem; }
+  .btn:hover {
+    color: #fff;
+    background: #224bcd; }
+
 .header {
   position: sticky;
   top: 0;
@@ -95,6 +108,26 @@ section {
     color: #666; }
     .footer .credit span {
       color: #fa1d86; }
+
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem; }
+  .home .image {
+    flex: 1 1 41rem; }
+    .home .image img {
+      width: 100%; }
+  .home .content {
+    flex: 1 1 41rem; }
+    .home .content h3 {
+      color: #302851;
+      font-size: 5rem; }
+    .home .content p {
+      font-size: 1.4rem;
+      color: #666;
+      padding: 1rem 0;
+      line-height: 2.5rem; }
 
 @media (max-width: 1200px) {
   html {

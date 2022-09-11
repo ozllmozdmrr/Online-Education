@@ -42,6 +42,22 @@ section {
     padding: 3rem 9% ;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background: $light-blue;
+    color: $blue;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+
+    &:hover {
+        color: $white;
+        background: $blue;
+    }
+}
+
 .header {
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -162,7 +178,37 @@ section {
 
 
 
+.home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 
+    .image {
+        flex: 1 1 41rem ;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    .content {
+        flex: 1 1 41rem;
+
+        h3 {
+            color: $black;
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: $light-color;
+            padding: 1rem 0;
+            line-height: 2.5rem;
+        }
+    }
+}
 
 
 
