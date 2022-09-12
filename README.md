@@ -3,7 +3,7 @@
  I made a clone project to improve myself on Sass and javascript. 
 
 <h2 align="center">
-  <img src="https://github.com/ozllmozdmrr/Online-Education/blob/main/src/images/gif.gif" alt="online" width="600px" />
+  <img src="https://github.com/ozllmozdmrr/Online-Education/blob/main/src/images/gif.gif" alt="online" width="900px" />
   <br>
 </h2>
 
