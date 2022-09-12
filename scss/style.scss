@@ -571,6 +571,55 @@ section {
 
 
 
+//// blog section
+
+
+.blog {
+    @include grid(31rem);
+
+    .box {
+
+        .image {
+            height: 25rem;
+            width: 100%;
+            overflow: hidden;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: .5rem;
+            }
+        }
+
+        .content {
+            padding: 2rem;
+            background: $light-bg;
+
+            .icons {
+                padding: 1.5rem;
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                a {
+                    font-size: 1.4rem;
+                    color: $light-color;
+
+                    &:hover {
+                        color: $blue;
+                    }
+
+                    i {
+                        padding: .5rem;
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

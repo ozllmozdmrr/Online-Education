@@ -365,6 +365,37 @@ section {
         color: #666;
         font-size: 1.5rem; }
 
+.blog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 1.5rem; }
+  .blog .box .image {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden; }
+    .blog .box .image img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: .5rem; }
+  .blog .box .content {
+    padding: 2rem;
+    background: #f5f5f5; }
+    .blog .box .content .icons {
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .blog .box .content .icons a {
+        font-size: 1.4rem;
+        color: #666; }
+        .blog .box .content .icons a:hover {
+          color: #224bcd; }
+        .blog .box .content .icons a i {
+          padding: .5rem;
+          color: #224bcd; }
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%; }
