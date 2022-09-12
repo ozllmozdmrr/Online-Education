@@ -623,6 +623,96 @@ section {
 
 
 
+.contact{
+
+    .icons-container{
+        @include grid(30rem);
+
+        .icons{
+            text-align: center;
+            padding:2rem;
+            border-radius: 1rem;
+            background: $light-bg;
+            margin-bottom: 2rem;
+
+            i{
+                height:6.5rem;
+                width:6.5rem;
+                line-height:6.5rem;
+                font-size: 2.5rem;
+                color:$blue;
+                background: $light-blue;
+                border-radius: 50%;
+                text-align: center;
+                margin-bottom: .5rem;
+            }
+
+            h3{
+                font-size: 2rem;
+                color:$black;
+                padding:.7rem 0;
+            }
+
+            p{
+                line-height: 2;
+                font-size: 1.4rem;
+                color:$light-color;
+            }
+        }
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap:1.5rem;
+
+        form{
+            flex:1 1 42rem;
+            border-radius: 1rem;
+            background: $light-bg;
+            padding:2rem;
+
+            h3{
+                font-size: 2.5rem;
+                color:$black;
+                margin-bottom: .5rem;
+            }
+
+            .box, textarea{
+                width: 100%;
+                padding:1rem 1.2rem;
+                font-size: 1.6rem;
+                color:$light-color;
+                text-transform: none;
+                margin:1rem 0;
+                border-radius: .5rem;
+                background: $white;
+            }
+
+            textarea{
+                height: 15rem;
+                resize: none;
+            }
+        }
+
+        .map{
+            flex:1 1 42rem;
+            width: 100%;
+            border-radius: 1rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
